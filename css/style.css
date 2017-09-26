@@ -82,9 +82,9 @@ div.drag .placeholder{
 
 /*Form PAGE*/
 .taskinput{
-    width:58vw;
+    width:56vw;
     float:left;
-    padding-left: 2vw;
+    margin-left: 2vw;
 }
 
 #field-name{
@@ -92,10 +92,17 @@ div.drag .placeholder{
 }
 
 .minuteinput{
-    width:28vw;
+    width:24vw;
     float:left;
-    padding-left: 2vw;
+    margin-left: 2vw;
 }
+
+#totaldiv{
+    width:24vw;
+    float:right;
+    margin-right: 16vw;
+    margin-top:1vw;
+} 
 
 #minutes{
     width: 100%;
@@ -118,11 +125,21 @@ div.drag .placeholder{
     width:20vw;
     min-width: 50px;
     font-size: 3vw;
-    margin-top:5vw;
+    margin-top:15vw;
     margin-left: 42.5vw;
 }
 
+#location{
+    display: block;
+}
 
+#targettime{
+    display: none;
+}
+
+#ttt{
+    display: none;
+}
 /*L O G   I N*/
 
 #login {
